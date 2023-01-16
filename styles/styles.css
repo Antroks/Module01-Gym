@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    padding-top: 50px;
+    padding-top: 31px;
     padding-bottom: 18px;
     display: flex;
     align-items: center;
@@ -74,7 +74,9 @@ body {
 }
 
 
-
+.content {
+    position: relative;
+}
 
 .content .container {
     display: flex;
@@ -129,6 +131,7 @@ body {
     border: none;
     text-transform: uppercase;
     margin-left: 0;
+    cursor: pointer;
     
 }
 
@@ -138,6 +141,7 @@ body {
     flex-grow: 1;
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .visual-bg {
@@ -149,8 +153,8 @@ body {
 
 .visual img {
     position: absolute;
-    right: 179px;
-    top: 168px;
+    right: 171px;
+    top: 37px;
 }
 
 .content-arrow {
@@ -158,5 +162,6 @@ body {
     height: 55px;
     width: 52px;
     position: absolute;
-    bottom: -232px;
+    bottom: 5px;
+    cursor: pointer;
 }
