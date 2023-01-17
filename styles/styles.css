@@ -165,3 +165,160 @@ body {
     bottom: 5px;
     cursor: pointer;
 }
+
+
+
+
+
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2B3541;
+}
+
+.promo {
+    margin-top: 158px;
+    
+}
+
+.promo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 41px;
+    position: relative;
+
+}
+
+
+
+.promo-grid-cover {
+    padding-top: 15px;
+    padding-left: 30px;
+    height: 584px;
+    width: 337px;
+    background-image: url(../images/@2x/maraphon@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 2;
+   
+    
+}
+
+/*.promo-grid-cover-bg {
+    position: absolute;
+    height: 584px;
+    width: 367px;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    
+
+}*/
+
+/*.promo-grid-cover-bg:hover {
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.3;
+}*/
+
+
+.promo-grid-date {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2B3541;
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.promo-grid-title {
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #2B3541;
+    margin-top: 22px;
+    max-width: 260px;
+    
+}
+
+.promo-grid-description {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 13px 21px;
+    background-color: #FBF138;
+    color: #2B3541;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+
+.promo-grid-cover-second {
+    background-image: url(../images/@2x/Vebinar1-2x.png);
+}
+
+.promo-grid-cover-thrid {
+    background-image: url(../images/@2x/Vebinar2-2x.png);
+}
+
+/*.promo-grid-cover .button {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 23px 48px;
+    color: #FBF138;
+    background-color: #2B3541;
+    margin-top: 11px;
+    box-shadow: none;
+    
+    cursor: pointer;
+}*/
+
+/*.promo-grid-cover:hover .button {
+    display: block;
+    z-index: 2;
+    
+    position: absolute;
+}*/
+
+.promo-grid-cover-bg {
+    position: absolute;
+    height: 584px;
+    width: 367px;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+
+.promo-grid-cover .button {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 23px 48px;
+    color: #FBF138;
+    background-color: #2B3541;
+    margin-top: 11px;
+    box-shadow: none;
+    
+    cursor: pointer;
+    position: absolute;
+    top: 165px;
+    left: 31px;
+    display: none;
+
+
+}
+
+
+.promo-grid-cover-bg:hover {
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.promo-grid-cover:hover .button {
+    display: block;
+    z-index: 2;
+    
+}
