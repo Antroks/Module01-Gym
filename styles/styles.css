@@ -202,26 +202,12 @@ body {
     background-size: cover;
     background-position: center center;
     position: relative;
-    z-index: 2;
+    
    
     
 }
 
-/*.promo-grid-cover-bg {
-    position: absolute;
-    height: 584px;
-    width: 367px;
-    z-index: 1;
-    left: 0px;
-    top: 0px;
-    
 
-}*/
-
-/*.promo-grid-cover-bg:hover {
-    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
-    opacity: 0.3;
-}*/
 
 
 .promo-grid-date {
@@ -271,16 +257,28 @@ body {
     background-color: #2B3541;
     margin-top: 11px;
     box-shadow: none;
-    
+    display: block;
     cursor: pointer;
 }*/
 
-/*.promo-grid-cover:hover .button {
-    display: block;
-    z-index: 2;
-    
+
+.promo-grid-cover-bg {
     position: absolute;
-}*/
+    height: 584px;
+    width: 367px;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    
+
+}
+
+.promo-grid-cover-bg:hover {
+    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+    opacity: 0.3;
+}
+
+
 
 .promo-grid-cover-bg {
     position: absolute;
@@ -300,25 +298,110 @@ body {
     background-color: #2B3541;
     margin-top: 11px;
     box-shadow: none;
+    opacity: 6;
     
     cursor: pointer;
     position: absolute;
     top: 165px;
     left: 31px;
+    z-index: 2;
     display: none;
-
-
-}
-
-
-.promo-grid-cover-bg:hover {
-    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
-    opacity: 0.3;
-    z-index: 1;
+   
 }
 
 .promo-grid-cover:hover .button {
     display: block;
     z-index: 2;
+    position: absolute;
+}
+
+
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.table-header .title {
+    width: 356px;
+}
+
+.table-date {
+    color: #2B3541;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+.table-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px;
+    gap: 20px;
+
+    grid-template-areas: "a b" "b" ".";   
     
 }
+
+.table-grid-item {
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 309px;
+    border: 1px solid #2B3541;
+    padding: 23px 29px;
+    
+}
+
+.table-grid-date {
+    float: right;
+    color: #010101;
+    font-size: 18px;
+    opacity: 0.6;
+    margin-top: 0;
+}
+
+.table-grid-box {
+    margin-top: 75px;
+    margin-left: 2px;
+}
+
+.grid-table-description {
+    margin-top: 39px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2B3541;
+}
+
+
+
+/*.table-grid-box {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}*/
+
+.table-grid-date:nth-child(1) {
+    grid-area: a;
+}
+
+.table-grid-date:nth-child(2) {
+    grid-area: b;
+}
+
+.table-grid-date:nth-child(3) {
+    grid-area: c;
+}
+
+.table-grid-date:nth-child(4) {
+    grid-area: d;
+}
+
+.table-grid-date:nth-child(5) {
+    grid-area: e;
+}
+
+.table-grid-date:nth-child(6) {
+    grid-area: f;
+}
+
