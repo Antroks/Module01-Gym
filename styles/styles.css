@@ -273,10 +273,7 @@ body {
 
 }
 
-.promo-grid-cover-bg:hover {
-    background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
-    opacity: 0.3;
-}
+
 
 
 
@@ -287,6 +284,7 @@ body {
     z-index: 1;
     left: 0px;
     top: 0px;
+    
 }
 
 .promo-grid-cover .button {
@@ -314,6 +312,12 @@ body {
     z-index: 2;
     position: absolute;
 }
+
+.promo-grid-cover:hover .promo-grid-cover-bg {
+        background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0) 100%);
+        opacity: 0.3;
+    }
+
 
 
 
